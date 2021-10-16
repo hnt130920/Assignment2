@@ -3,9 +3,8 @@ import java.util.ArrayList;
 public class ListStudents {
     private ArrayList<Student> listStudents = new ArrayList();
 
-    public ArrayList<Student> addStudent(Student st){
+    public void addStudent(Student st){
         listStudents.add(st);
-        return listStudents;
     }
 
     public ArrayList<Student> getListStudents() {
